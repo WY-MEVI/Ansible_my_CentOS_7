@@ -1,0 +1,7 @@
+---
+# file: ./provision/playbook.yml
+
+- hosts: host
+  tasks:
+    - name: provision test
+      debug: msg="provision test"
